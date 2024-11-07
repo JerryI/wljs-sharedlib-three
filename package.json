@@ -29,11 +29,14 @@
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "15.0.1",
-    "three": "^0.169.0",
     "rollup": "^3.20.6",
     "rollup-plugin-combine": "^2.1.1",
     "serve-static": "^1.14.1",
-    "systemjs": "^6.14.1"
+    "systemjs": "^6.14.1",
+    "three": "^0.169.0",
+    "three-gpu-pathtracer": "^0.0.23",
+    "three-mesh-bvh": "^0.8.0",
+    "three-spritetext": "^1.9.0"
   },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4"
