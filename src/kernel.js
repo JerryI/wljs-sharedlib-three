@@ -32,7 +32,7 @@
   }
 
   const loader6 = async (self) => {
-    const sprite = await import("three-spritetext");
+    const sprite = (await import("three-spritetext")).default;
     self.SpriteText = sprite;
   }
 
